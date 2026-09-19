@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# 数据文件（不要上传大文件！GitHub 单文件上限 100MB，仓库建议 < 1GB）
+*.csv
+*.db
+*.sqlite
+*.sqlite3
+*.parquet
+*.h5
+*.xlsx
+
+# 图片/报告产物
+*.png
+*.jpg
+*.pdf
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# 密钥 / 账号（重要：绝不能上传）
+config.py
+secrets.py
+*.env
+.env
+token.txt
+*_token.json

@@ -1,0 +1,13 @@
+# 核心依赖（主线模块跑通所需）
+# 安装：pip install -r requirements.txt
+
+akshare>=1.12          # A股行情与财务数据源
+pandas>=2.0            # 面板数据处理
+numpy>=1.24            # 数值计算
+scikit-learn>=1.3      # Lasso / RF / GBRT / 神经网络
+statsmodels>=0.14      # OLS、Newey-West 标准误、时序检验
+matplotlib>=3.7        # 画图（中文字体：Microsoft YaHei）
+
+# 可选
+# sqlalchemy>=2.0      # 01_data 的 SQLite 增量更新
+# scipy>=1.10          # 04_pricing 的蒙特卡洛与分布拟合
